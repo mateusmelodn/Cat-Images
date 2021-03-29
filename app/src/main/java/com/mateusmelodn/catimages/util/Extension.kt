@@ -16,7 +16,7 @@ import com.mateusmelodn.catimages.ui.adapter.CatImagesAdapter
 //  INIT EXTENSION --------------------------------------------------------------
 fun RecyclerView.addOnScrolledToEnd(onScrolledToEnd: () -> Unit) {
     this.addOnScrollListener(object: RecyclerView.OnScrollListener() {
-        private val VISIBLE_THRESHOLD = 10
+        private val VISIBLE_THRESHOLD = 30
         private var loading = true
         private var previousTotal = 0
 
