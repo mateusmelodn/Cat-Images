@@ -13,3 +13,5 @@ The project uses the following dependencies for various things:
 - [Databinding](https://developer.android.com/topic/libraries/data-binding/) 
 - [Glide](https://github.com/bumptech/glide) 
 
+
+![](gif/CatImages.gif)
