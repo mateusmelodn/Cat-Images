@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cat Images</string>
+    <string name="image">Image</string>
+    <string name="there_is_no_data_available">Não há dados no momento.</string>
+</resources>
