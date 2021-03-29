@@ -19,11 +19,17 @@ class MainActivity : AppCompatActivity(), OnScrollFinished {
         setContentView(binding.root)
 
         // Load images
+        currentPage = 0
         viewModel.downloadCatImages(currentPage)
     }
 
     companion object {
         var currentPage = 0
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        currentPage = 0
     }
 
     override fun onScrollFinished() {
